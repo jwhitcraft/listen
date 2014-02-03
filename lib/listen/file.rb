@@ -101,7 +101,7 @@ module Listen
     end
 
     def _md5
-      @md5 ||= Digest::MD5.file(path).digest
+      #@md5 ||= Digest::MD5.file(path).digest
     rescue
       nil
     end
